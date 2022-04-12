@@ -13,7 +13,7 @@ public class AESEncryptor {
     public AESEncryptor(String password) {
         encryptor = new BasicTextEncryptor();
         encryptor.setPassword(password);
-        log.info("AESEncryptor initialized.the password is {}", password);
+        log.info("AESEncryptor initialized.");
     }
 
     public String encrypt(String text) {
